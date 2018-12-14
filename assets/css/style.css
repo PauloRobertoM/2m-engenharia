@@ -1,0 +1,520 @@
+* {
+    outline: none;
+}
+a {
+    text-decoration: none!important;
+    cursor: pointer!important;
+    transition: 1s;
+}
+p {
+    line-height: 1.5;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1200px!important;
+    width: 100%;
+}
+
+.navbar-default {
+    background: #f4f4f4;
+    height: 105px;
+    border-radius: 0;
+    margin-bottom: 0px;
+    border: none;
+}
+.navbar-header .navbar-brand {
+    position: relative;
+    z-index: 20;
+}
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+#bs-example-navbar-collapse-1 {
+    float: right;
+    height: 105px;
+    padding: 0;
+}
+.navbar-header img {
+    margin-left: 15px;
+}
+header ul.nav {
+    height: 105px;
+    display: flex;
+    align-items: center;
+    margin-right: -10px;
+}
+header ul.nav>li>a {
+    font-size: 16px;
+    color: #3d3d3d!important;
+    padding: 10px;
+}
+header ul.nav>li>a:hover {
+    color: #e9b310!important;
+}
+
+.vitrine img {
+    height: 550px;
+    object-fit: cover;
+}
+
+.quem-somos {
+    padding: 100px 0;
+}
+.quem-somos h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #00508f;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.quem-somos h2:after {
+    content: "";
+    display: block;
+    width: 98px;
+    height: 7px;
+    background: #dddedf;
+    margin-top: 15px;
+}
+.quem-somos h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a6099;
+    margin-bottom: 5px;
+}
+.quem-somos p {
+    font-size: 16px;
+    color: #545455;
+    margin-bottom: 20px;
+}
+
+.servicos {
+    background: url('../images/back-atuacao.jpg') no-repeat;
+    width: 100%;
+    height: 525px;
+    padding: 60px 0;
+}
+.servicos h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.servicos h2 span {
+    font-weight: 300;
+}
+.servicos h2:after {
+    content: "";
+    display: block;
+    width: 98px;
+    height: 7px;
+    background: #dddedf;
+    margin-top: 15px;
+}
+.servicos .itens {
+    display: flex;
+    justify-content: space-between;
+}
+.servicos .item {
+    width: 20%;
+    text-align: center;
+    padding: 0 10px;
+}
+.servicos .item img {
+    margin: 0 auto;
+    display: table;
+}
+.servicos h4 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.empreendimentos {
+    padding: 100px 0;
+    background: #f6f7f7;
+}
+.empreendimentos h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #00508f;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.empreendimentos h2:after {
+    content: "";
+    display: block;
+    width: 98px;
+    height: 7px;
+    background: #dddedf;
+    margin-top: 15px;
+}
+.bola {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: #e9b310;
+    border-radius: 50px;
+    position: relative;
+    top: -3px;
+}
+.realizadas {
+    font-size: 35px;
+    font-weight: 300;
+    color: #424242;
+}
+.empreendimentos .conteudo {
+    background: #fff;
+    padding: 20px 30px;
+}
+.empreendimentos h4 {
+    font-size: 22px;
+    color: #424242;
+    margin-top: 0;
+}
+.empreendimentos .borda {
+    width: 100%;
+    border-bottom: 1px solid #dddedf;
+}
+.empreendimentos ul {
+    margin-top: 10px;
+}
+.empreendimentos ul>li {
+    font-size: 17px;
+    color: #424242;
+}
+.empreendimentos ul>li img {
+    width: 17px!important;
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+}
+.empreendimentos p {
+    font-size: 14px;
+    color: #a2a1a1;
+}
+.empreendimentos a {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #e9b310;
+    padding: 10px 30px;
+    border-radius: 50px;
+    display: table;
+    margin: 20px auto 0;
+}
+.empreendimentos a:hover {
+    background: #bb900f;
+}
+
+.news {
+    padding: 50px 0;
+}
+.news h4 {
+    font-size: 28px;
+    font-weight: 300;
+    color: #00437e;
+    margin-bottom: -5px;
+    margin-top: 0;
+}
+.news h2 {
+    font-size: 58px;
+    font-weight: bold;
+    color: #00437e;
+    margin-top: 0;
+}
+.news p {
+    font-size: 20px;
+    color: #424242;
+    margin-top: -5px;
+}
+.news form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.news input {
+    width: 38%!important;
+    height: 55px;
+    border: 1px solid #b7b7b7;
+    border-radius: 0;
+}
+.news button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    width: 20%;
+    background: #e9b310;
+    border: none;
+    transition: 1s;
+}
+.news button:hover {
+    background: #bb900f;
+}
+.news ::-webkit-input-placeholder {
+   color: #424242;
+   font-size: 17px;
+}
+.news :-moz-placeholder {
+   color: #424242;
+   font-size: 17px;
+}
+.news ::-moz-placeholder {
+   color: #424242;
+   font-size: 17px;
+}
+.news :-ms-input-placeholder {
+   color: #424242;
+   font-size: 17px;
+}
+
+footer {
+    padding: 50px 0;
+    background: #2f2f2f;
+}
+footer ul.nav>li>a {
+    font-size: 16px;
+    color: #fff!important;
+    padding: 10px;
+}
+footer ul.nav>li>a:hover {
+    color: #e9b310!important;
+    background: transparent;
+}
+footer img {
+    margin-top: 10px;
+}
+
+.interna {
+    padding: 150px 0 80px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.interna .img-sobre {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.interna h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #00508f;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.interna h2:after {
+    content: "";
+    display: block;
+    width: 98px;
+    height: 7px;
+    background: #dddedf;
+    margin-top: 15px;
+}
+.interna h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a6099;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.interna p {
+    font-size: 16px;
+    color: #545455;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.listagem .empreendimentos,
+.sidebar .empreendimentos {
+    padding: 0;
+    background: #fff;
+}
+.listagem .empreendimentos .conteudo,
+.sidebar .empreendimentos .conteudo {
+    background: #f6f7f7;
+    padding: 20px 30px;
+}
+
+.contato input {
+    height: 45px;
+    margin-bottom: 20px;
+}
+.contato textarea {
+    height: 150px;
+    margin-bottom: 20px;
+}
+.contato button {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #e9b310;
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: none;
+    display: table;
+    float: right;
+    transition: 1s;
+}
+.contato button:hover {
+    background: #bb900f;
+}
+
+.listagem .item {
+    margin-bottom: 30px;
+}
+
+/* --- MOBILE --- */
+@media (max-width: 767px) {
+    .navbar-header img {
+        width: 125px;
+    }
+    #bs-example-navbar-collapse-1 {
+        float: none;
+        background: #f4f4f4;
+        z-index: 300;
+        position: relative;
+        top: 0;
+        height: 100%;
+        padding: 10px 30px;
+    }
+    .navbar-toggle {
+        padding: 15px 15px;
+        margin-top: 28px;
+        border-color: #00508f!important;
+    }
+    .navbar-default {
+        border-radius: 0;
+        margin-bottom: 0px;
+        border: none;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #00508f;
+    }
+    .navbar-nav {
+        width: 100%;
+        height: auto!important;
+        float: none;
+        text-align: center;
+        display: block!important;
+        margin: 10px 0 0 0;
+        margin-top: 0!important;
+    }
+    .navbar-nav>li>a {
+        padding: 15px 10px!important;
+    }
+    .vitrine img {
+        height: 150px;
+    }
+    .quem-somos {
+        padding: 30px 0;
+    }
+    .quem-somos p {
+        text-align: justify;
+    }
+    .servicos {
+        background-size: cover;
+        min-height: 525px;
+        height: 100%;
+        padding: 30px 0;
+    }
+    .servicos h2 {
+        margin-bottom: 40px;
+    }
+    .servicos .itens {
+        display: block;
+    }
+    .servicos .item {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .servicos .item img {
+        margin: 0 auto;
+    }
+    .servicos h4 {
+        margin-top: 10px;
+    }
+    .empreendimentos {
+        padding: 30px 0;
+    }
+    .bola {
+        display: none;
+    }
+    .empreendimentos .conteudo {
+        padding: 20px 10px;
+    }
+    .news {
+        padding: 30px 0;
+    }
+    .news h2 {
+        font-size: 46px;
+    }
+    .news form {
+        display: block;
+    }
+    .news input {
+        width: 100%!important;
+    }
+    .news button {
+        width: 100%;
+        height: 55px;
+    }
+    footer img.pull-right {
+        margin: 30px auto 0;
+        float: none!important;
+        display: table;
+    }
+    .interna {
+        padding: 70px 0;
+        border-bottom: 1px solid #e2e2e2;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-header img {
+        width: 140px;
+    }
+    header ul.nav>li>a {
+        font-size: 14px;
+    }
+    .vitrine img {
+        height: 400px;
+    }
+    .quem-somos p {
+        font-size: 14px;
+    }
+    .servicos h4 {
+        font-size: 16px;
+    }
+    .news input {
+        width: 35%!important;
+    }
+    .news button {
+        font-size: 16px;
+        width: 26%;
+    }
+    .news h2 {
+        font-size: 38px;
+    }
+    .news p {
+        font-size: 18px;
+    }
+    footer ul.nav>li>a {
+        font-size: 14px;
+        padding: 10px 5px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    
+}
